@@ -5,9 +5,18 @@ body, html {
 }
 h1 {
     color: #fff;
-    font-size: 4rem;
     text-shadow: 0 0 10px #000;
     margin: 0;
+}
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 401px) {
+  h1 {
+    font-size: 4rem;
+  }
 }
 #wave {
     display: grid;
